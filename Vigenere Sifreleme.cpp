@@ -33,7 +33,7 @@
 		printf("sifrelenecek kelimeyi girin:");
 		gets(kelime);
 		printf("kelimemin uzunlugu:%d\n", strlen(kelime));
-    	printf("kelimenin anahtarini girin:(NOT:anahtar keLimeyle ayni uzunlukta olmalidir):");
+    	        printf("kelimenin anahtarini girin:(NOT:anahtar keLimeyle ayni uzunlukta olmalidir):");
 		gets(anahtar);
 		for(j=0;kelime[j]!='\0';j++)
 		{for(i=0;i<26;i++)
